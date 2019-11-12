@@ -1,0 +1,12 @@
+######################################################
+# スケールアウト時に入力必須
+######################################################
+
+# scaleoutに使うAMI IDを指定
+prd_web_scaleout_ami = "ami-xxxxxxxxxxxxxxxx"
+
+# scaleoutする台数
+prd_web_scaleout_count = "2"
+
+# scaleout時のインスタンスタイプ
+prd_web_scaleout_type = "t2.large"
